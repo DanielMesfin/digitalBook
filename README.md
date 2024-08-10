@@ -1,0 +1,49 @@
+# Welcome to dBooks clone website !
+
+- learn remix on it's amazing and so fun [Remix Docs](https://remix.run/docs) 💿
+
+## This website build using
+
+- [remix](remix.run)
+- [tailwindcss](tailwindcss.com)
+- [DaisyUi](https://daisyui.com/)
+
+## Development
+
+Navigate to your terminal:
+
+```sh
+git clone https://github.com/onesamket/dBooks-clone.git  your folder name or default
+```
+
+```sh
+   cd dBooks-clone or your folder
+```
+
+```sh
+ npm i
+```
+
+run in development mode
+
+```sh
+npm run dev
+```
+
+This starts your app in development mode, rebuilding assets on file changes.
+
+## Deployment
+
+First, build your app for production:
+
+```sh
+npm run build
+```
+
+Then run the app in production mode:
+
+```sh
+npm start
+```
+
+Now you'll need to pick a host to deploy it like vercel or render.
